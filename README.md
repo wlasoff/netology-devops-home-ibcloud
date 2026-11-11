@@ -54,10 +54,10 @@
 ```
   $ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jpg | head -3
  ```
-![backet1](./img/backet1.jpg)
+![backet1](./img/bucket1.jpg)
 
 или на YC:
-![backet2](./img/backet2.jpg)
+![backet2](./img/bucket2.jpg)
 
  видим то, что sse_kms_key_id объекта совпадает с идентификатором созданного ключа — файл зашифрован именно им.
 
