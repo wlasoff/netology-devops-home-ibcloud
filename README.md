@@ -23,7 +23,7 @@
 
 --- 
 
-## Выполнение задания 1. Yandex Cloud 
+## Выполнение пункта 1 задания 1. Yandex Cloud 
 
 Используя конфигурации, выполненные в рамках [предыдущего домашнего задания](https://github.com/wlasoff/netology-devops-home-balance) 
 
@@ -69,7 +69,23 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
 
 ![backet3](./img/bucket3.jpg)
 
+## Выполнение пункта 2 задания 1. Yandex Cloud 
 
+Будем использован домен hw15.vlasov.tech, файлы страницы лежат [тут](./site/).
+Создаю статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:
+
+- для начала нужен бакет с именем, совпадающим с доменом.
+```
+yc storage bucket create --name hw15.vlasov.tech --public-read
+ ```
+![backet4](./img/bucket4.jpg)
+
+- загрузим страницы:
+```
+yc storage s3 cp index.html s3://hw15.vlasov.tech/index.html
+yc storage s3 cp error.html s3://hw15.vlasov.tech/error.html
+```
+![backet5](./img/bucket5.jpg)
 
 
 
