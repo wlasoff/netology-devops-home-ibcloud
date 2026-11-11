@@ -75,24 +75,20 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
 
 Создаю статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:
 
-- для начала нужен бакет с именем, совпадающим с доменом.
-```
-yc storage bucket create --name hw15.vlasov.tech --public-read
+- переходим в yandex.console Object Storage.
+
  ```
 ![backet4](./img/bucket4.jpg)
 
-- загрузим страницы:
-```
-yc storage s3 cp index.html s3://hw15.vlasov.tech/index.html
-yc storage s3 cp error.html s3://hw15.vlasov.tech/error.html
-```
+- загрузим страницы в наш банкет:
+
 ![backet5](./img/bucket5.jpg)
 
-- включю в настройках бакета хостинг статического сайта : главная страница - index.html, страница ошибки - error.html.
+- видим идентификатор шифрования страница ошибки - error.html.
   
 ![backet6](./img/bucket6.jpg)
   
-  Проверим настройки:
+- разрешим доступ при помощи KMS:
   
 ![backet7](./img/bucket7.jpg)
 
