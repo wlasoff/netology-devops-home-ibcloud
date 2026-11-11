@@ -67,7 +67,7 @@
 curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jpg | head -3
  ```
 
-![backe3](./img/backet3.jpg)
+![backet3](./img/bucket3.jpg)
 
 
 
