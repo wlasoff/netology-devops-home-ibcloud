@@ -77,7 +77,6 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
 
 - переходим в yandex.console Object Storage.
 
- ```
 ![backet4](./img/bucket4.jpg)
 
 - загрузим страницы в наш банкет:
