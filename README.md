@@ -72,6 +72,8 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
 
 
 
+
+
 [<Файлы для terraform>](./cfg/)
 
 Удаляем все ресурсы на Yandex Cloud командой
