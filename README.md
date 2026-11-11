@@ -89,11 +89,13 @@ yc storage s3 cp error.html s3://hw15.vlasov.tech/error.html
 ![backet5](./img/bucket5.jpg)
 
 - включю в настройках бакета хостинг статического сайта : главная страница - index.html, страница ошибки - error.html.
-  ![backet6](./img/bucket6.jpg)
+  
+![backet6](./img/bucket6.jpg)
   
   Проверим настройки:
-  ![backet7](./img/bucket7.jpg)
--
+  
+![backet7](./img/bucket7.jpg)
+
   
 
 [<Файлы для terraform>](./cfg/)
