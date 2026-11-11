@@ -91,7 +91,14 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
   
 ![backet7](./img/bucket7.jpg)
 
-  
+- ранее была ошибка access denied
+
+![backet8](./img/bucket8.jpg)
+
+- теперь ошибка access denied изчезла
+
+![backet9](./img/bucket9.jpg)
+
 
 [<Файлы для terraform>](./cfg/)
 
