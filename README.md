@@ -71,7 +71,8 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
 
 ## Выполнение пункта 2 задания 1. Yandex Cloud 
 
-Будем использован домен hw15.vlasov.tech, файлы страницы лежат [тут](./site/).
+Будем использовать домен hw15.vlasov.tech, файлы страницы лежат [тут](./site/).
+
 Создаю статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:
 
 - для начала нужен бакет с именем, совпадающим с доменом.
@@ -87,8 +88,11 @@ yc storage s3 cp error.html s3://hw15.vlasov.tech/error.html
 ```
 ![backet5](./img/bucket5.jpg)
 
+- включf. в настройках бакета [остинг статического сайта : главная страница - index.html, страница ошибки - error.html.
+  Проверим настройки:
+  ![backet6](./img/bucket6.jpg)
 
-
+  
 
 [<Файлы для terraform>](./cfg/)
 
