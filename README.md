@@ -90,6 +90,7 @@ yc storage s3 cp error.html s3://hw15.vlasov.tech/error.html
 
 - включю в настройках бакета хостинг статического сайта : главная страница - index.html, страница ошибки - error.html.
   ![backet6](./img/bucket6.jpg)
+  
   Проверим настройки:
   ![backet7](./img/bucket7.jpg)
 -
