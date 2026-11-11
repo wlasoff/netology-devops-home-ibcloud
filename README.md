@@ -99,13 +99,15 @@ curl -sI https://storage.yandexcloud.net/vlasov-v-hw15-2-2026/Vladimir_Vlasov.jp
 
 ![backet9](./img/bucket9.jpg)
 
+- можем также видеть содержимое бакета
 
-[<Файлы для terraform>](./cfg/)
+![backet10](./img/bucket10.jpg)
 
-Удаляем все ресурсы на Yandex Cloud командой
+- если добавим KMS роль Viewer
 
-```bash
- terraform destroy
-   ```
-![Удаляем](./img/del_ter.jpg)
+![backet11](./img/bucket11.jpg)
+
+- Теперь видим, что наш сайт открывается и подписан сертификатом
+
+![backet12](./img/bucket12.jpg)
 
