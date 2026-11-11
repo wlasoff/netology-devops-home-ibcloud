@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Статический сайт в Yandex Object Storage</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: linear-gradient(160deg, #0b1f3a 0%, #18406f 100%);
+      color: #bf9000;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+    .card {
+      max-width: 640px;
+      width: 100%;
+      background: rgba(255, 255, 255, .06);
+      border: 1px solid rgba(143, 195, 255, .25);
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+    }
+    h1 { margin: 0 0 8px; font-size: 28px; font-weight: 600; }
+    .lock { font-size: 40px; line-height: 1; margin-bottom: 16px; }
+    p { line-height: 1.6; color: #cddfff; }
+    ul { line-height: 1.9; color: #cddfff; padding-left: 20px; }
+    code {
+      background: rgba(255, 255, 255, .1);
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 14px;
+    }
+    footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(143, 195, 255, .2);
+      font-size: 14px;
+      color: #8fc3ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="lock">🔐</div>
+    <h1>Это статический сайт в Object Storage</h1>
+    <p>
+      Страница отдаётся напрямую из бакета Yandex Object Storage по HTTPS
+      с сертификатом из Certificate Manager.
+    </p>
+    <footer>
+    </div>
+</body>
+</html>
 
